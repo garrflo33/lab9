@@ -24,7 +24,7 @@ jobs:
 
       - name: Test 2 - Name too long
         run: |
-          result=$(./validate-data.sh ChristopherSmith 0871234567)
+          result=$(./validate-data.sh ChristopherSmith12345 0871234567)
           echo "Test 2: $result"
           test "$result" = "FAIL"
 
