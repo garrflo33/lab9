@@ -1,0 +1,116 @@
+  I assume there was an easier way to do this
+  502  cd devops/
+  503  ls
+  504  mkdir lab9
+  505  cd lab
+  506  cd lab9
+  507  clear
+  508  ls
+  509  clear
+  510  nano validate-data.sh
+  511  chmod +x validate-data.sh 
+  512  clear
+  513  ls
+  514  bash validate-data.sh "Garreth Flood" "0877681522"
+  515  bash validate-data.sh "Garreth Flood is very good" "0877681522"
+  516  bash validate-data.sh "Garreth Flood" "08776815221111111111"
+  517  cat validate-data.sh q
+  518  clear
+  519  ls
+  520  bash validate-data.sh "Garreth Flood" "0878681522"
+  521  bash validate-data.sh "Garreth Flood" "08776815221111111111"
+  522  bash validate-data.sh "Garreth Flood is very good" "0877681522"
+  523  cat validate-data.sh 
+  524  date
+  525  ls
+  526  clear
+  527  mkdir .github/workflows
+  528  clear
+  529  git clone git@github.com:garrflo33/lab9.git
+  530  c;ear
+  531  clear
+  532  ls
+  533  cd lab9/
+  534  ls
+  535  clear
+  536  ls
+  537* 
+  538  ls
+  539  cp validate-data.sh ./lab9/lab9
+  540  cd lab9/
+  541  ls
+  542  cat lab9 
+  543  clear
+  544  ls
+  545  cd ..
+  546  ls
+  547  rm lab9/
+  548  rm -d lab9/
+  549  cd lab9/
+  550  rm lab9 
+  551  ..
+  552  cd ..
+  553  clear
+  554  rm lab9/
+  555  rm -d lab9/
+  556  cd lab9/
+  557  ls
+  558  clear
+  559  cd ,,
+  560  cd ..
+  561  ls
+  562  sudo rm -rf lab9/
+  563  ls
+  564  clear
+  565  git init
+  566  clear
+  567  ls
+  568  mkdir .github/workflows
+  569  mkdir -p .github/workflows
+  570  clear
+  571  ls
+  572  clear
+  573  ls
+  574  nano .github/workflows/basictests.yml
+  575  ls -R .github
+  576  git add .
+  577  git commit -m "added validate script and gh actions yaml"
+  578  git push -u origin
+  579  git push
+  580  git remote add origin git@github.com:garrflo33/lab9.git
+  581  git status
+  582  git push
+  583  git push --set-upstream origin master
+  584  git status 
+  585  git remote -v
+  586  clear
+  587  git add .
+  588  git commit "added script and yaml"
+  589  git commit -m "added script and yaml"
+  590  clear
+  591  git push
+  592  cat .github/workflows/basictests.yml
+  593  git status
+  594  git branch
+  595  cat .github/workflows/basictests.yml
+  596  lear
+  597  clear
+  598  git switch -c test
+  599  git status
+  600  clear
+  601  git status
+  602  clear
+  603  git branch
+  604  nano validate-data.sh 
+  605  cat validate-data.sh 
+  606  git add .
+  607  git commit -m "new branch, changed script"
+  608  git push -u test
+  609  git push -u origin test
+  610  nano .github/workflows/basictests.yml
+  611  clear
+  612  git add .
+  613  git commit -m "fixed actions test"
+  614  git branch 
+  615  git push
+  616  history>history.txt
